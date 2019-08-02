@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>push</title>
+
+    
+    <link rel="manifest" href="./manifest.json?121">
+    
+
+    
+
+</head>
+<body>
+    test
+    <span></span>
+
+    <br>
+    <br>
+    <div class="token"></div>
+</body>
+
+<script src="./jquery.min.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+
+<script src="https://testhttps.flying-lines.com/webMessage/init-firebase.js?1212112331321232"></script>
+
+
+<!-- <script src="/firebase-messaging-sw.js?1121231321213212312"></script> -->
+<script>
+
+
+
+
+    var date = new Date();
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var day = date.getDate();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    document.querySelector('body span').innerHTML = ''
+        + year
+        + '-'
+        + month
+        + '-'
+        + day
+        + ' '
+        + hours
+        + ':'
+        + minutes;
+</script>
+
+</html>
